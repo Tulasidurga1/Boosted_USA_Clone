@@ -1,0 +1,455 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+     
+}
+hr{
+    border: 5px solid black;
+}
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.options{
+    height:100%;
+    width:70%;
+    display:flex;
+    justify-content: space-evenly;
+}
+  .options h5 {
+    margin: 5px 0;
+    transition: color 0.3s ease;
+  }
+  .options h5:hover {
+    color: red;
+  }
+.electric-cycle1{
+    display:flex;
+    flex-wrap: wrap;
+}
+.bicycle{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width:100%;
+    height: 100%;
+    /* transition: transform .2s; */
+    color:white;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+.bicycle {
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  /* Style for the images */
+  .image {
+    /* width: 100%; */
+    transition: transform 0.3s ease;
+  }
+  /* Hover effect: Scale up the image and show the logo */
+  .bicycle:hover .image {
+    transform: scale(1.1);
+  }
+.logo{
+    /* z-index: 2; */
+    position: absolute;
+    
+}
+.para{
+    position: absolute;
+    /* border: 2px solid red; */
+    margin-top:100px;
+}
+.electric-cycle2{
+    /* border: 2px solid red; */
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.cycle{
+    padding:20px;
+}
+/* -----------------------poara-section------------------------------- */
+.section1{
+    text-align: center;
+    width: 100%;
+
+    /* border:2px solid greenyellow; */
+}
+.section1, div{
+text-align: center;
+}
+.p{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+
+/* ------------------------------------------cyclesection-3-------------------------------------------------------- */
+.electric-cycle3{
+    /* border:2px solid red; */
+}
+.cycle1{
+    display: flex;
+    /* border:2px solid blue; */
+
+}
+.super{
+     /* border:2px solid yellow; */
+     margin-left:100px;
+}
+.super73{
+    /* border: 2px solid green; */
+    margin-left:400px
+}
+#button{
+    background-color:rgb(228, 75, 33);
+    border-radius: 1rem;
+    padding: .5rem;
+    margin-top:20px;
+    width:40%;
+    border:none;
+    color:white;
+}
+.super {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .super:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .super img {
+    width: 500px;
+    height: 500px;
+  }
+  
+  /* Optional: Add a semi-transparent overlay on hover */
+  .super::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+.cycle2{
+    display: flex;
+}
+#button{
+    background-color:rgb(228, 75, 33);
+    border-radius: 1rem;
+    padding: .5rem;
+    margin-top:20px;
+    width:40%;
+    border:none;
+}
+.transport{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.super {
+    width: 500px;
+    height: 500px;
+    transition: transform 0.3s ease;
+  }
+  .sun:hover .super {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+.cycle3{
+    display: flex;
+}
+#button{
+    background-color:rgb(228, 75, 33);
+    border-radius: 1rem;
+    padding: .5rem;
+    margin-top:20px;
+    width:40%;
+    border:none;
+}
+.evolve{
+         
+        margin-left:300px
+        
+}
+.super {
+    width: 500px;
+    height: 500px;
+    transition: transform 0.3s ease;
+  }
+  
+   
+  .shoe:hover .super {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+/* ------------------------------cycle section-4----------------------------- */
+.electric-cycle4{
+  
+}
+.highimg{
+    height:100%;
+    width:100%;
+}
+.image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch{
+    position: absolute;
+    color: red;
+}
+.watch1{
+    position: absolute;
+    margin-top: 40px;
+    color: red;
+}
+.watch2{
+    position: absolute;
+    margin-top: 40px;
+    color: red;
+}
+.watch3{
+    position: absolute;
+    margin-top: 40px;
+    color: red;
+}
+
+
+/*---------------------------------cyclesection5 youtube---------------------------- */
+.youtube{
+   display:flex;
+   justify-content: center;
+
+}
+.electric-cycle5{
+ /* border:2px solid blue; */
+  
+}
+
+/* -------------------------------------skateboard-------------------------------------------------- */
+.electric-cycle6{
+    /* display:flex; */
+    /* flex-wrap: wrap; */
+ }
+
+.allterrain{
+    display: flex;
+    height:100%;
+    width:100%;
+}
+.board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-top: 50px; */
+}
+.skateboard{
+    position: absolute;
+    color: black;
+    margin-bottom: 200px;
+}
+.skateboard1{
+    position: absolute;
+    margin-bottom: 100px;
+    color: white;
+}
+.skateboard2{
+    position: absolute;
+    /* margin-bottom: 50px; */
+    color:black;
+
+}
+.skateboard3{
+    position: absolute;
+    margin-top: 200px;
+    color: white;
+    background-color:rgb(228, 75, 33);
+    border-radius: 1rem;
+    padding: .5rem;
+    width:10%;
+    border:none;
+}
+
+/* -------------------------------------------------Accessories-1---------------------------------------------------- */
+ 
+.pic{
+    display:flex;
+}
+.text{
+    text-align: center;
+}
+.items{
+    /* display:flex;
+    justify-content: space-between;
+    flex-direction: row; */
+}
+
+
+/*----------------------------------------------------Accessories-2-------------------------------------------------  */
+
+.pic1{
+    display:flex;
+}
+
+/* --------------------------------------------------Minimotors Accessories--------------------------------------------------------*/
+.pic2{
+    display:flex;
+    font-size:small;
+}
+
+/*-----------------------------------------------------  E-mail Section-----------------------------------------------------------------*/
+.email{
+    /* border:2px solid blue; */
+    background-color:rgba(210, 206, 206, 0.974);
+    padding:60px;
+}
+.button{
+    background-color:rgb(228, 75, 33);
+    padding:16px;
+    width:30%;
+    margin-top: 30px;
+    border:none;
+}
+/* --------------------------------------------------------black section--------------------------------------------------------------- */
+.blacksection{
+    /* border: 2px solid rgb(89, 15, 215); */
+    background-color: black;
+    display: flex;
+    justify-content:space-evenly;
+    height:100%;
+    width:100%;
+    padding:50px;
+}
+.meter{
+    width:5rem;
+    height:5rem;
+     
+    /* font-size: xx-large; */
+}
+.bulb{
+    /* border: 1px solid blanchedalmond; */
+    color:white;
+    font-size: 15px;
+    font-weight: lighter;
+   margin-top: 20px;
+   font-size: medium;
+}
+.blacksection,.h1{
+    color:white;
+    margin-top: 10px;
+    font-size: large;
+
+}
+/*---------------------------about section -----------------------------------*/
+.about-section{
+    /* border: 2px solid rgb(235, 46, 33); */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+     padding:20px;
+     height: 100%;
+     width:100%;
+}
+.font-size{
+    /* font-size: 14px; */
+}
+.aboutimg{
+    /* border:2px solid rgb(17, 121, 139); */
+     margin-left:10%;
+     height: 100%;
+     width:15%;
+     padding:10px;
+     /* border-top: 50px; */
+
+}
+.explore{
+    /* border:2px solid yellow; */
+    width:30%;
+    height:100%;
+}
+ul{
+    list-style: none;
+}
+.heading{
+    /* border:2px solid rgb(96, 161, 81); */
+    margin-bottom:20px;
+}
+.about{
+    /* border:2px solid rgb(18, 18, 1); */
+    margin:5px;
+    width:25%;
+    height:100%;
+    padding: 20px;
+     
+}
+ .heading2{
+     margin-bottom:10px;
+ }
+.boosted{
+    margin-top: 20px;
+}
+/* footer */
+ .footer{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 110px 10px 110px;
+}
+.footer,h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer h3 span{
+    color: red;
+}
+.footerImages{
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+}
+.footerimg{
+    width: 30px;
+    height: 20px;
+}
+.footerimg:hover{
+    cursor: pointer;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    background-color: #100cf9;
+    padding: 5px;
+    width:200px;
+    height:50px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  #footer:hover {
+    transform: scale(1.05);
+  }
+  
+
+
